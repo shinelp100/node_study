@@ -1,2 +1,7 @@
 # node_study
-this is trying to study node.js
+
+ - node.js
+```angular2html
+    this is trying to study node.js
+```
+    
