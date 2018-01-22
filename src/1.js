@@ -1,1 +1,1 @@
-alert("2");
+alert("删除.igit dea文件");
