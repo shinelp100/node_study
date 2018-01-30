@@ -14,9 +14,7 @@ app.get("/", function(req, res) {
     // var result = Math.round((Math.random() * (max - min)) + min);
     // console.dir(api());
     var a = api();
-    console.log("lw",a);
     // res.json(api());
-
 });
 
 app.listen(3000, function() {
