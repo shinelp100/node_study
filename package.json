@@ -1,0 +1,11 @@
+{
+  "name": "first-api-test",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "showapi-sdk": "^1.0.4"
+  }
+}
