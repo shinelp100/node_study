@@ -3,7 +3,6 @@ var app = express();
 var path = require("path");
 var request = require('request');
 
-
 app.use('/static',express.static('static'));
 
 app.set('views', __dirname + '/static');
@@ -17,11 +16,10 @@ app.use("/idCard",function(req,res){
     request(queryUrl, function (error, response, data) {
         if (!error && response.statusCode == 200) {
             var results = JSON.parse(data);
-            res.locals.area = results.result.area;
-            res.locals.sex = results.result.sex;
-            res.locals.birthday = results.result.birthday;
-            res.render('result.html');
-            // res.sendFile(path.join(__dirname+'/static/result.html'));
+            // res.locals.area = results.result.area;
+            // res.locals.sex = results.result.sex;
+            // res.locals.birthday = results.result.birthday;
+            res.render('result.html',{area:results.result.area,sex:results.result.sex,birthday:results.result.birthday});
         }
     });
 });
