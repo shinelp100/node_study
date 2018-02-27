@@ -6,7 +6,7 @@ var request = require('request');
 
 app.use('/static',express.static('static'));
 
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/static');
 app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);
 
