@@ -4,6 +4,35 @@
 ```angular2html
     this is trying to study node.js
 ```
+ 
+ - node渲染html文件
+ ```html
+    app.set('views', __dirname + '/static');
+    app.set('view engine', 'html');
+    app.engine('html', require('ejs').renderFile);
+    
+    node直接渲染html文件[src]
+```   
+ - node路由管理
+ ```html
+    routes(app);
+    
+    路由集散中心
+    module.exports = function(app){
+        app.get('/' ,require('./home'));
+    
+        app.use('/list', require('./list'));
+    
+        app.use(function(req ,res){
+            if(!res.headersSent) {
+                res.status(404).render('404.html',{title:"页面去了火星"});
+            }
+        });
+    };
+    
+    方便实现路由的管理[router]
+    
+```   
     
     
  - 数据抓取存在两种形式
