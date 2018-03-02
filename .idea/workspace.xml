@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31350c95-d591-4f7d-954d-be578d33e268" name="Default" comment=".idea 文件的忽略">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/md5/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/md5/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spiders/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spiders/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spiders_demo/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spiders_demo/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/md5/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="0">
               <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
@@ -31,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="754">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="44" />
+              <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -57,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spiders/app.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spiders_demo/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spiders_demo/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -121,6 +129,8 @@
         <option value="$PROJECT_DIR$/md5/app.js" />
         <option value="$PROJECT_DIR$/spiders/package.json" />
         <option value="$PROJECT_DIR$/spiders/app.js" />
+        <option value="$PROJECT_DIR$/spiders_demo/package-lock.json" />
+        <option value="$PROJECT_DIR$/spiders_demo/app.js" />
       </list>
     </option>
   </component>
@@ -134,6 +144,7 @@
     <handled-path value="$PROJECT_DIR$/md5/node_modules" />
     <handled-path value="$PROJECT_DIR$/router/node_modules" />
     <handled-path value="$PROJECT_DIR$/spiders/node_modules" />
+    <handled-path value="$PROJECT_DIR$/spiders_demo/node_modules" />
     <handled-path value="$PROJECT_DIR$/src/node_modules" />
   </component>
   <component name="PhpServers">
@@ -179,7 +190,7 @@
             <path>
               <item name="node_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="node_study" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="spiders_demo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -197,16 +208,17 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\node_study\src\static" />
-      <recent name="D:\work\node_study\src\views" />
-      <recent name="D:\work\node_study" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\node_study\spiders_demo" />
       <recent name="D:\work\node_study\router\static" />
       <recent name="D:\work\node_study\router\routes" />
       <recent name="D:\work\node_study\router" />
       <recent name="D:\work\node_study\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\node_study\src\static" />
+      <recent name="D:\work\node_study\src\views" />
+      <recent name="D:\work\node_study" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -247,7 +259,7 @@
       <workItem from="1519728076420" duration="3032000" />
       <workItem from="1519780245555" duration="208000" />
       <workItem from="1519780688822" duration="10344000" />
-      <workItem from="1519958922387" duration="1730000" />
+      <workItem from="1519958922387" duration="7761000" />
     </task>
     <task id="LOCAL-00001" summary=".idea 文件的忽略">
       <created>1516585041495</created>
@@ -274,7 +286,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62955000" />
+    <option name="totallyTimeSpent" value="68986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -315,9 +327,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json" />
-    <entry file="file://$PROJECT_DIR$/index.js" />
-    <entry file="file://$PROJECT_DIR$/api.js" />
     <entry file="file://$PROJECT_DIR$/base.css" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -547,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/md5/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="0">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
@@ -561,6 +570,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders_demo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders_demo/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spiders/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -569,18 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
+    <entry file="file://$PROJECT_DIR$/spiders_demo/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="551">
+          <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
           <folding />
         </state>
       </provider>
