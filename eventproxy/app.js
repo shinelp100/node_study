@@ -33,6 +33,7 @@ app.get('/' ,function(req, res, next){
         });
 
         ep.after('topic_html',topicUrls.length,function(topics){
+            console.log(topics);
             topics = topics.map(function (topicPair) {
                 // 接下来都是 jquery 的用法了
                 var topicUrl = topicPair[0];
@@ -44,7 +45,7 @@ app.get('/' ,function(req, res, next){
                     comment1: $('.reply_content').eq(0).text().trim()
                 });
             });
-            console.log(topicUrls);
+
             res.send(topics);
         })
     })
